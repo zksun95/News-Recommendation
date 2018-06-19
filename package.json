@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zksun95/newself#readme",
   "dependencies": {
+    "express-generator": "^4.16.0",
     "npm": "^6.1.0"
   }
 }
