@@ -1,5 +1,6 @@
 import mongo
 from cloud_amqp import CLoudAMQPCli
+import news_api as news
 def test_mdb():
     db = mongo.get_db('test')
     db.demo.drop()
@@ -13,5 +14,7 @@ def test_mdb():
 
 
 if __name__ =="__main__":
-    test_mdb()
+    n = news.getNewsBySource()
+    print(n)
+    # test_mdb()
     #test_amqp()

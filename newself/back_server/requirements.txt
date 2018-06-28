@@ -3,3 +3,5 @@ werkzeug
 json-rpc
 pika
 pymongo
+requests
+redis
